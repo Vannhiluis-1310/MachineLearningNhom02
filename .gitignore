@@ -1,0 +1,51 @@
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc.*
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Test/cache directories
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+
+# Tooling / locks created locally
+.python-version
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS / misc
+.DS_Store
+Thumbs.db
+
+# Data and model artifacts
+*.csv
+*.tsv
+*.parquet
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.onnx
+
+# Logs and environment snapshots
+*.log
+.env
+.env.*
+uv.lock
